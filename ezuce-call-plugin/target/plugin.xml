@@ -1,0 +1,19 @@
+<!-- Define your plugin -->
+<plugin>
+    <name>eZuce Call plugin</name>
+    <version>1.0</version>
+    <author>Mircea Carasel</author>
+    <homePage>http://www.ezuce.com</homePage>
+    <email>mirceac@ezuce.com</email>
+    <description>eZuce TPCC (Third Party Call Controller) Plugin.</description>
+    <class>org.ezuce.call.CallPlugin</class>
+    <minSparkVersion>2.0.0</minSparkVersion>
+    <java>1.6.0</java>
+    <depends>
+		<plugin>
+			<name>eZuce Commons Plugin</name>
+			<version>1.0</version>
+		</plugin>
+    </depends>
+</plugin>
+
