@@ -1,0 +1,12 @@
+package org.ezuce.unitemedia.event;
+
+public enum UniteCallEventType { 
+	CALL_INCOMING, 
+	CALL_OUTGOING,
+	INCOMING_CALL_IN_PROGRESS,
+	OUTGOING_CALL_IN_PROGRESS,
+	LOCALLY_ON_HOLD,
+	REMOTELY_ON_HOLD,
+	MUTUALY_ON_HOLD,
+	CALL_ENDED
+}

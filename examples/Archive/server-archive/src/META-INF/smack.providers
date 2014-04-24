@@ -1,0 +1,8 @@
+<?xml version="1.0"?> 
+<smackProviders> 
+    <iqProvider> 
+        <elementName>result</elementName> 
+        <namespace>urn:xmpp:archive</namespace> 
+        <className>org.ezuce.archive.provider.ArchiveMessageProvider</className> 
+    </iqProvider>
+</smackProviders>
